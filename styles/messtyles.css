@@ -39,14 +39,58 @@ COMPONENTS
 
 header {
     background-color: #F26C25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+
+    margin: 0;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    padding: 0;
+
+    list-style: none;
+}
+
+header nav a {
+    color: #ffffff;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 /*-----------BANNIÈRE-----------*/
 
-
+.banniere {
+    background-color: #EEEEEE;
+}
 
 /*-----------TRANSPORT-----------*/
 
 
 
 /*-----------FOOTER-----------*/
+
+footer {
+    background-color: #000000;
+}
