@@ -22,3 +22,31 @@ body {
     font-size: 18px;
 }
 
+.wrapper {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--------------------------------------
+COMPONENTS
+--------------------------------------*/
+
+/*-----------HEADER-----------*/
+
+header {
+    background-color: #F26C25;
+}
+
+/*-----------BANNIÈRE-----------*/
+
+
+
+/*-----------TRANSPORT-----------*/
+
+
+
+/*-----------FOOTER-----------*/
