@@ -1,0 +1,24 @@
+/*--------------------------------------
+BASE
+--------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*--------------------------------------
+ÉLÉMENTS
+--------------------------------------*/
+
+body {
+    margin: 0;
+    padding: o;
+
+    font-family: "Roboto", serif;
+    font-size: 18px;
+}
+
