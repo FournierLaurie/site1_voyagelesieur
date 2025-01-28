@@ -85,9 +85,53 @@ header nav a:hover {
     background-color: #EEEEEE;
 }
 
+.banniere .wrapper {
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
 /*-----------TRANSPORT-----------*/
 
+.titre-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
 
+    background-color: #EEEEEE;
+    border: solid 1px #D0D0D0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.conteneurTransport {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    display:
+}
 
 /*-----------FOOTER-----------*/
 
